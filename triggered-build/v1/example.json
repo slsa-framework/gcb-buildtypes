@@ -1,9 +1,9 @@
 {
     "_type": "https://in-toto.io/Statement/v1",
-    "predicateType": "https://slsa.dev/provenance/v1?draft",
+    "predicateType": "https://slsa.dev/provenance/v1",
     "predicate": {
         "buildDefinition": {
-            "buildType": "https://slsa-framework.github.io/gcb-buildtypes/triggered-build/v1?draft",
+            "buildType": "https://slsa-framework.github.io/gcb-buildtypes/triggered-build/v1",
             "externalParameters": {
                 "configSource": {
                     "ref": "refs/heads/main",

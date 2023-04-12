@@ -13,7 +13,7 @@ GCB to describe a Google Cloud Build.
 ## Description
 
 ```jsonc
-"buildType": "https://slsa-framework.github.io/gcb-buildtypes/triggered-build/v1?draft"
+"buildType": "https://slsa-framework.github.io/gcb-buildtypes/triggered-build/v1"
 ```
 
 This `buildType` describes the execution of a [Google Cloud Build (GCB)][GCB]
