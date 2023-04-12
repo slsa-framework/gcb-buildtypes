@@ -120,9 +120,9 @@ In BuildTrigger, this corresponds to `substitutions`.
 
 </table>
 
-### System parameters
+### Internal parameters
 
-All system parameters are OPTIONAL.
+All internal parameters are OPTIONAL.
 
 | Parameter | Type | Description |
 | --------- | ---- | ----------- |
