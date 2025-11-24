@@ -3,12 +3,15 @@
     "predicateType": "https://slsa.dev/provenance/v1",
     "predicate": {
         "buildDefinition": {
-            "buildType": "https://cloud.google.com/build/gcb-buildtypes/google-worker/v1",
+            "buildType": "https://slsa-framework.github.io/gcb-buildtypes/triggered-build/v1",
             "externalParameters": {
-                "buildConfigSource": {
+                "configSource": {
                     "ref": "refs/heads/main",
                     "repository": "https://github.com/GoogleCloudPlatform/cloud-build-samples",
                     "path": "basic-config/cloudbuild.yaml"
+                },
+                "sourceToBuild": {
+                    "dir": "basic-config"
                 },
                 "substitutions": {
                     "count": "3",
@@ -24,9 +27,6 @@
             ]
         },
         "runDetails": {
-            "builder": {
-                "id": "https://cloudbuild.googleapis.com/GoogleHostedWorker"
-            },
             "metadata": {
                 "invocationId": "https://cloudbuild.googleapis.com/v1/projects/cloud-build-samples-project/locations/us-west1/builds/03eb98be-0390-4b05-b861-ef52ed4d2a34",
                 "startedOn": "2023-01-01T12:34:56Z"
