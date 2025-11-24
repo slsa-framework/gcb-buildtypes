@@ -10,12 +10,6 @@ served under a URL it controls, once it officially supports SLSA. In the
 meantime, this unofficial definition can be used by tooling that runs on top of
 GCB to describe a Google Cloud Build.
 
-Note: This build type is now deprecated. For the current SLSA Provenance for
-Cloud Build, see [Build Type: Cloud Build v1 build][gcb-build-type]
-in the Google Cloud documentation.
-
-[gcb-build-type][https://docs.cloud.google.com/build/gcb-buildtypes/google-worker/v1]
-
 ## Description
 
 ```jsonc
