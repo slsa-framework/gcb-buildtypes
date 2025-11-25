@@ -1,8 +1,8 @@
 # Community-maintained SLSA buildTypes for Google Cloud Build
 
 **This build type is now deprecated.** For the current SLSA Provenance for
-Cloud Build, see [Build Type: Cloud Build v1 build][gcb-build-type]
-in the Google Cloud documentation.
+Cloud Build, see
+https://docs.cloud.google.com/build/gcb-buildtypes/google-worker/v1.
 
 This repo contains community-maintained
 [SLSA Provenance](https://slsa.dev/provenance/v1) `buildType` definitions for
